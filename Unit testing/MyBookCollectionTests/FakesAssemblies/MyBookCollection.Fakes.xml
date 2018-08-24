@@ -1,0 +1,374 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MyBookCollection.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:MyBookCollection.Fakes.ShimBook">
+            <summary>Typ podkładki dla MyBookCollection.Book</summary>
+        </member>
+        <member name="M:MyBookCollection.Fakes.ShimBook.#ctor">
+            <summary>Inicjuje nowe wystąpienie podkładki</summary>
+        </member>
+        <member name="M:MyBookCollection.Fakes.ShimBook.#ctor(MyBookCollection.Book)">
+            <summary>Inicjuje nową podkładkę dla danego wystąpienia</summary>
+        </member>
+        <member name="T:MyBookCollection.Fakes.ShimBook.AllInstances">
+            <summary>Definiowanie podkładek dla wszystkich składowych wystąpień</summary>
+        </member>
+        <member name="P:MyBookCollection.Fakes.ShimBook.AllInstances.AuthorGet">
+            <summary>Ustawia element podkładka dla: Book.get_Author()</summary>
+        </member>
+        <member name="P:MyBookCollection.Fakes.ShimBook.AllInstances.AuthorSetString">
+            <summary>Ustawia element podkładka dla: Book.set_Author(String value)</summary>
+        </member>
+        <member name="P:MyBookCollection.Fakes.ShimBook.AllInstances.TitleGet">
+            <summary>Ustawia element podkładka dla: Book.get_Title()</summary>
+        </member>
+        <member name="P:MyBookCollection.Fakes.ShimBook.AllInstances.TitleSetString">
+            <summary>Ustawia element podkładka dla: Book.set_Title(String value)</summary>
+        </member>
+        <member name="P:MyBookCollection.Fakes.ShimBook.AllInstances.UserGet">
+            <summary>Ustawia element podkładka dla: Book.get_User()</summary>
+        </member>
+        <member name="P:MyBookCollection.Fakes.ShimBook.AllInstances.UserSetIApplicationReader">
+            <summary>Ustawia element podkładka dla: Book.set_User(IApplicationReader value)</summary>
+        </member>
+        <member name="P:MyBookCollection.Fakes.ShimBook.AuthorGet">
+            <summary>Ustawia element podkładka dla: Book.get_Author()</summary>
+        </member>
+        <member name="P:MyBookCollection.Fakes.ShimBook.AuthorSetString">
+            <summary>Ustawia element podkładka dla: Book.set_Author(String value)</summary>
+        </member>
+        <member name="M:MyBookCollection.Fakes.ShimBook.BehaveAsCurrent">
+            <summary>Przypisuje zachowanie „Current” dla wszystkich metod z typem zastąpionym podkładką</summary>
+        </member>
+        <member name="M:MyBookCollection.Fakes.ShimBook.BehaveAsNotImplemented">
+            <summary>Przypisuje zachowanie „NotImplemented” dla wszystkich metod z typem zastąpionym podkładką</summary>
+        </member>
+        <member name="P:MyBookCollection.Fakes.ShimBook.Behavior">
+            <summary>Przypisuje zachowanie dla wszystkich metod z typem zastąpionym podkładką</summary>
+        </member>
+        <member name="M:MyBookCollection.Fakes.ShimBook.Bind(MyBookCollection.IApplicationBook)">
+            <summary>Powiązuje składowe interfejsu z podkładką.</summary>
+        </member>
+        <member name="P:MyBookCollection.Fakes.ShimBook.ConstructorIApplicationReaderStringString">
+            <summary>Ustawia element podkładka dla: Book.Book(IApplicationReader user, String title, String author)</summary>
+        </member>
+        <member name="P:MyBookCollection.Fakes.ShimBook.TitleGet">
+            <summary>Ustawia element podkładka dla: Book.get_Title()</summary>
+        </member>
+        <member name="P:MyBookCollection.Fakes.ShimBook.TitleSetString">
+            <summary>Ustawia element podkładka dla: Book.set_Title(String value)</summary>
+        </member>
+        <member name="P:MyBookCollection.Fakes.ShimBook.UserGet">
+            <summary>Ustawia element podkładka dla: Book.get_User()</summary>
+        </member>
+        <member name="P:MyBookCollection.Fakes.ShimBook.UserSetIApplicationReader">
+            <summary>Ustawia element podkładka dla: Book.set_User(IApplicationReader value)</summary>
+        </member>
+        <member name="T:MyBookCollection.Fakes.ShimManager">
+            <summary>Typ podkładki dla MyBookCollection.Manager</summary>
+        </member>
+        <member name="M:MyBookCollection.Fakes.ShimManager.#ctor">
+            <summary>Inicjuje nowe wystąpienie podkładki</summary>
+        </member>
+        <member name="M:MyBookCollection.Fakes.ShimManager.#ctor(MyBookCollection.Manager)">
+            <summary>Inicjuje nową podkładkę dla danego wystąpienia</summary>
+        </member>
+        <member name="P:MyBookCollection.Fakes.ShimManager.AddBookIApplicationReaderStringString">
+            <summary>Ustawia element podkładka dla: Manager.AddBook(IApplicationReader user, String title, String author)</summary>
+        </member>
+        <member name="P:MyBookCollection.Fakes.ShimManager.AddBookStringStringString">
+            <summary>Ustawia element podkładka dla: Manager.AddBook(String user, String title, String author)</summary>
+        </member>
+        <member name="P:MyBookCollection.Fakes.ShimManager.AddReaderIApplicationReader">
+            <summary>Ustawia element podkładka dla: Manager.AddReader(IApplicationReader reader)</summary>
+        </member>
+        <member name="P:MyBookCollection.Fakes.ShimManager.AddReaderStringString">
+            <summary>Ustawia element podkładka dla: Manager.AddReader(String login, String password)</summary>
+        </member>
+        <member name="T:MyBookCollection.Fakes.ShimManager.AllInstances">
+            <summary>Definiowanie podkładek dla wszystkich składowych wystąpień</summary>
+        </member>
+        <member name="P:MyBookCollection.Fakes.ShimManager.AllInstances.AddBookIApplicationReaderStringString">
+            <summary>Ustawia element podkładka dla: Manager.AddBook(IApplicationReader user, String title, String author)</summary>
+        </member>
+        <member name="P:MyBookCollection.Fakes.ShimManager.AllInstances.AddBookStringStringString">
+            <summary>Ustawia element podkładka dla: Manager.AddBook(String user, String title, String author)</summary>
+        </member>
+        <member name="P:MyBookCollection.Fakes.ShimManager.AllInstances.AddReaderIApplicationReader">
+            <summary>Ustawia element podkładka dla: Manager.AddReader(IApplicationReader reader)</summary>
+        </member>
+        <member name="P:MyBookCollection.Fakes.ShimManager.AllInstances.AddReaderStringString">
+            <summary>Ustawia element podkładka dla: Manager.AddReader(String login, String password)</summary>
+        </member>
+        <member name="P:MyBookCollection.Fakes.ShimManager.AllInstances.BooksGet">
+            <summary>Ustawia element podkładka dla: Manager.get_Books()</summary>
+        </member>
+        <member name="P:MyBookCollection.Fakes.ShimManager.AllInstances.BooksSetListOfIApplicationBook">
+            <summary>Ustawia element podkładka dla: Manager.set_Books(List`1&lt;IApplicationBook&gt; value)</summary>
+        </member>
+        <member name="P:MyBookCollection.Fakes.ShimManager.AllInstances.DeleteReaderIApplicationReader">
+            <summary>Ustawia element podkładka dla: Manager.DeleteReader(IApplicationReader reader)</summary>
+        </member>
+        <member name="P:MyBookCollection.Fakes.ShimManager.AllInstances.DeleteReaderString">
+            <summary>Ustawia element podkładka dla: Manager.DeleteReader(String login)</summary>
+        </member>
+        <member name="P:MyBookCollection.Fakes.ShimManager.AllInstances.GetReaderString">
+            <summary>Ustawia element podkładka dla: Manager.GetReader(String login)</summary>
+        </member>
+        <member name="P:MyBookCollection.Fakes.ShimManager.AllInstances.ReaderExistsIApplicationReader">
+            <summary>Ustawia element podkładka dla: Manager.ReaderExists(IApplicationReader reader)</summary>
+        </member>
+        <member name="P:MyBookCollection.Fakes.ShimManager.AllInstances.ReaderExistsString">
+            <summary>Ustawia element podkładka dla: Manager.ReaderExists(String login)</summary>
+        </member>
+        <member name="P:MyBookCollection.Fakes.ShimManager.AllInstances.ReadersGet">
+            <summary>Ustawia element podkładka dla: Manager.get_Readers()</summary>
+        </member>
+        <member name="P:MyBookCollection.Fakes.ShimManager.AllInstances.ReadersSetListOfIApplicationReader">
+            <summary>Ustawia element podkładka dla: Manager.set_Readers(List`1&lt;IApplicationReader&gt; value)</summary>
+        </member>
+        <member name="M:MyBookCollection.Fakes.ShimManager.BehaveAsCurrent">
+            <summary>Przypisuje zachowanie „Current” dla wszystkich metod z typem zastąpionym podkładką</summary>
+        </member>
+        <member name="M:MyBookCollection.Fakes.ShimManager.BehaveAsNotImplemented">
+            <summary>Przypisuje zachowanie „NotImplemented” dla wszystkich metod z typem zastąpionym podkładką</summary>
+        </member>
+        <member name="P:MyBookCollection.Fakes.ShimManager.Behavior">
+            <summary>Przypisuje zachowanie dla wszystkich metod z typem zastąpionym podkładką</summary>
+        </member>
+        <member name="P:MyBookCollection.Fakes.ShimManager.BooksGet">
+            <summary>Ustawia element podkładka dla: Manager.get_Books()</summary>
+        </member>
+        <member name="P:MyBookCollection.Fakes.ShimManager.BooksSetListOfIApplicationBook">
+            <summary>Ustawia element podkładka dla: Manager.set_Books(List`1&lt;IApplicationBook&gt; value)</summary>
+        </member>
+        <member name="P:MyBookCollection.Fakes.ShimManager.Constructor">
+            <summary>Ustawia element podkładka dla: Manager.Manager()</summary>
+        </member>
+        <member name="P:MyBookCollection.Fakes.ShimManager.DeleteReaderIApplicationReader">
+            <summary>Ustawia element podkładka dla: Manager.DeleteReader(IApplicationReader reader)</summary>
+        </member>
+        <member name="P:MyBookCollection.Fakes.ShimManager.DeleteReaderString">
+            <summary>Ustawia element podkładka dla: Manager.DeleteReader(String login)</summary>
+        </member>
+        <member name="P:MyBookCollection.Fakes.ShimManager.GetReaderString">
+            <summary>Ustawia element podkładka dla: Manager.GetReader(String login)</summary>
+        </member>
+        <member name="P:MyBookCollection.Fakes.ShimManager.ReaderExistsIApplicationReader">
+            <summary>Ustawia element podkładka dla: Manager.ReaderExists(IApplicationReader reader)</summary>
+        </member>
+        <member name="P:MyBookCollection.Fakes.ShimManager.ReaderExistsString">
+            <summary>Ustawia element podkładka dla: Manager.ReaderExists(String login)</summary>
+        </member>
+        <member name="P:MyBookCollection.Fakes.ShimManager.ReadersGet">
+            <summary>Ustawia element podkładka dla: Manager.get_Readers()</summary>
+        </member>
+        <member name="P:MyBookCollection.Fakes.ShimManager.ReadersSetListOfIApplicationReader">
+            <summary>Ustawia element podkładka dla: Manager.set_Readers(List`1&lt;IApplicationReader&gt; value)</summary>
+        </member>
+        <member name="T:MyBookCollection.Fakes.ShimReader">
+            <summary>Typ podkładki dla MyBookCollection.Reader</summary>
+        </member>
+        <member name="M:MyBookCollection.Fakes.ShimReader.#ctor">
+            <summary>Inicjuje nowe wystąpienie podkładki</summary>
+        </member>
+        <member name="M:MyBookCollection.Fakes.ShimReader.#ctor(MyBookCollection.Reader)">
+            <summary>Inicjuje nową podkładkę dla danego wystąpienia</summary>
+        </member>
+        <member name="T:MyBookCollection.Fakes.ShimReader.AllInstances">
+            <summary>Definiowanie podkładek dla wszystkich składowych wystąpień</summary>
+        </member>
+        <member name="P:MyBookCollection.Fakes.ShimReader.AllInstances.BookCollectionGet">
+            <summary>Ustawia element podkładka dla: Reader.get_BookCollection()</summary>
+        </member>
+        <member name="P:MyBookCollection.Fakes.ShimReader.AllInstances.BookCollectionSetListOfIApplicationBook">
+            <summary>Ustawia element podkładka dla: Reader.set_BookCollection(List`1&lt;IApplicationBook&gt; value)</summary>
+        </member>
+        <member name="P:MyBookCollection.Fakes.ShimReader.AllInstances.DeleteAllBooks">
+            <summary>Ustawia element podkładka dla: Reader.DeleteAllBooks()</summary>
+        </member>
+        <member name="P:MyBookCollection.Fakes.ShimReader.AllInstances.DeleteBookInt32">
+            <summary>Ustawia element podkładka dla: Reader.DeleteBook(Int32 index)</summary>
+        </member>
+        <member name="P:MyBookCollection.Fakes.ShimReader.AllInstances.LoginGet">
+            <summary>Ustawia element podkładka dla: Reader.get_Login()</summary>
+        </member>
+        <member name="P:MyBookCollection.Fakes.ShimReader.AllInstances.LoginSetString">
+            <summary>Ustawia element podkładka dla: Reader.set_Login(String value)</summary>
+        </member>
+        <member name="P:MyBookCollection.Fakes.ShimReader.AllInstances.PasswordGet">
+            <summary>Ustawia element podkładka dla: Reader.get_Password()</summary>
+        </member>
+        <member name="P:MyBookCollection.Fakes.ShimReader.AllInstances.PasswordSetString">
+            <summary>Ustawia element podkładka dla: Reader.set_Password(String value)</summary>
+        </member>
+        <member name="P:MyBookCollection.Fakes.ShimReader.AllInstances.ShowBooks">
+            <summary>Ustawia element podkładka dla: Reader.ShowBooks()</summary>
+        </member>
+        <member name="M:MyBookCollection.Fakes.ShimReader.BehaveAsCurrent">
+            <summary>Przypisuje zachowanie „Current” dla wszystkich metod z typem zastąpionym podkładką</summary>
+        </member>
+        <member name="M:MyBookCollection.Fakes.ShimReader.BehaveAsNotImplemented">
+            <summary>Przypisuje zachowanie „NotImplemented” dla wszystkich metod z typem zastąpionym podkładką</summary>
+        </member>
+        <member name="P:MyBookCollection.Fakes.ShimReader.Behavior">
+            <summary>Przypisuje zachowanie dla wszystkich metod z typem zastąpionym podkładką</summary>
+        </member>
+        <member name="M:MyBookCollection.Fakes.ShimReader.Bind(MyBookCollection.IApplicationReader)">
+            <summary>Powiązuje składowe interfejsu z podkładką.</summary>
+        </member>
+        <member name="P:MyBookCollection.Fakes.ShimReader.BookCollectionGet">
+            <summary>Ustawia element podkładka dla: Reader.get_BookCollection()</summary>
+        </member>
+        <member name="P:MyBookCollection.Fakes.ShimReader.BookCollectionSetListOfIApplicationBook">
+            <summary>Ustawia element podkładka dla: Reader.set_BookCollection(List`1&lt;IApplicationBook&gt; value)</summary>
+        </member>
+        <member name="P:MyBookCollection.Fakes.ShimReader.ConstructorStringString">
+            <summary>Ustawia element podkładka dla: Reader.Reader(String login, String password)</summary>
+        </member>
+        <member name="P:MyBookCollection.Fakes.ShimReader.DeleteAllBooks">
+            <summary>Ustawia element podkładka dla: Reader.DeleteAllBooks()</summary>
+        </member>
+        <member name="P:MyBookCollection.Fakes.ShimReader.DeleteBookInt32">
+            <summary>Ustawia element podkładka dla: Reader.DeleteBook(Int32 index)</summary>
+        </member>
+        <member name="P:MyBookCollection.Fakes.ShimReader.LoginGet">
+            <summary>Ustawia element podkładka dla: Reader.get_Login()</summary>
+        </member>
+        <member name="P:MyBookCollection.Fakes.ShimReader.LoginSetString">
+            <summary>Ustawia element podkładka dla: Reader.set_Login(String value)</summary>
+        </member>
+        <member name="P:MyBookCollection.Fakes.ShimReader.PasswordGet">
+            <summary>Ustawia element podkładka dla: Reader.get_Password()</summary>
+        </member>
+        <member name="P:MyBookCollection.Fakes.ShimReader.PasswordSetString">
+            <summary>Ustawia element podkładka dla: Reader.set_Password(String value)</summary>
+        </member>
+        <member name="P:MyBookCollection.Fakes.ShimReader.ShowBooks">
+            <summary>Ustawia element podkładka dla: Reader.ShowBooks()</summary>
+        </member>
+        <member name="T:MyBookCollection.Fakes.StubBook">
+            <summary>Typ klasy zastępczej dla MyBookCollection.Book</summary>
+        </member>
+        <member name="M:MyBookCollection.Fakes.StubBook.#ctor(MyBookCollection.IApplicationReader,System.String,System.String)">
+            <summary>Inicjuje nowe wystąpienie</summary>
+        </member>
+        <member name="P:MyBookCollection.Fakes.StubBook.CallBase">
+            <summary>Pobiera lub ustawia wartość określającą, czy zamiast zachowania alternatywnego należy wywołać metodę bazową</summary>
+        </member>
+        <member name="M:MyBookCollection.Fakes.StubBook.InitializeStub">
+            <summary>Inicjuje nowe wystąpienie elementu type StubBook</summary>
+        </member>
+        <member name="P:MyBookCollection.Fakes.StubBook.InstanceBehavior">
+            <summary>Pobiera lub ustawia zachowanie wystąpienia.</summary>
+        </member>
+        <member name="P:MyBookCollection.Fakes.StubBook.InstanceObserver">
+            <summary>Pobiera lub ustawia obserwatora wystąpienia.</summary>
+        </member>
+        <member name="T:MyBookCollection.Fakes.StubIApplicationBook">
+            <summary>Typ klasy zastępczej dla MyBookCollection.IApplicationBook</summary>
+        </member>
+        <member name="M:MyBookCollection.Fakes.StubIApplicationBook.#ctor">
+            <summary>Inicjuje nowe wystąpienie elementu type StubIApplicationBook</summary>
+        </member>
+        <member name="P:MyBookCollection.Fakes.StubIApplicationBook.MyBookCollection#IApplicationBook#Author">
+            <summary>Ustawia element stub dla: IApplicationBook.get_Author()</summary>
+        </member>
+        <member name="F:MyBookCollection.Fakes.StubIApplicationBook.AuthorGet">
+            <summary>Ustawia element stub dla: IApplicationBook.get_Author()</summary>
+        </member>
+        <member name="P:MyBookCollection.Fakes.StubIApplicationBook.MyBookCollection#IApplicationBook#Title">
+            <summary>Ustawia element stub dla: IApplicationBook.get_Title()</summary>
+        </member>
+        <member name="F:MyBookCollection.Fakes.StubIApplicationBook.TitleGet">
+            <summary>Ustawia element stub dla: IApplicationBook.get_Title()</summary>
+        </member>
+        <member name="P:MyBookCollection.Fakes.StubIApplicationBook.MyBookCollection#IApplicationBook#User">
+            <summary>Ustawia element stub dla: IApplicationBook.get_User()</summary>
+        </member>
+        <member name="F:MyBookCollection.Fakes.StubIApplicationBook.UserGet">
+            <summary>Ustawia element stub dla: IApplicationBook.get_User()</summary>
+        </member>
+        <member name="T:MyBookCollection.Fakes.StubIApplicationReader">
+            <summary>Typ klasy zastępczej dla MyBookCollection.IApplicationReader</summary>
+        </member>
+        <member name="M:MyBookCollection.Fakes.StubIApplicationReader.#ctor">
+            <summary>Inicjuje nowe wystąpienie elementu type StubIApplicationReader</summary>
+        </member>
+        <member name="P:MyBookCollection.Fakes.StubIApplicationReader.MyBookCollection#IApplicationReader#BookCollection">
+            <summary>Ustawia element stub dla: IApplicationReader.get_BookCollection()</summary>
+        </member>
+        <member name="F:MyBookCollection.Fakes.StubIApplicationReader.BookCollectionGet">
+            <summary>Ustawia element stub dla: IApplicationReader.get_BookCollection()</summary>
+        </member>
+        <member name="F:MyBookCollection.Fakes.StubIApplicationReader.DeleteAllBooks">
+            <summary>Ustawia element stub dla: IApplicationReader.DeleteAllBooks()</summary>
+        </member>
+        <member name="F:MyBookCollection.Fakes.StubIApplicationReader.DeleteBookInt32">
+            <summary>Ustawia element stub dla: IApplicationReader.DeleteBook(Int32 index)</summary>
+        </member>
+        <member name="P:MyBookCollection.Fakes.StubIApplicationReader.MyBookCollection#IApplicationReader#Login">
+            <summary>Ustawia element stub dla: IApplicationReader.get_Login()</summary>
+        </member>
+        <member name="F:MyBookCollection.Fakes.StubIApplicationReader.LoginGet">
+            <summary>Ustawia element stub dla: IApplicationReader.get_Login()</summary>
+        </member>
+        <member name="M:MyBookCollection.Fakes.StubIApplicationReader.MyBookCollection#IApplicationReader#DeleteAllBooks">
+            <summary>Ustawia element klasa zastępcza dla: IApplicationReader.DeleteAllBooks()</summary>
+        </member>
+        <member name="M:MyBookCollection.Fakes.StubIApplicationReader.MyBookCollection#IApplicationReader#DeleteBook(System.Int32)">
+            <summary>Ustawia element klasa zastępcza dla: IApplicationReader.DeleteBook(Int32 index)</summary>
+        </member>
+        <member name="M:MyBookCollection.Fakes.StubIApplicationReader.MyBookCollection#IApplicationReader#ShowBooks">
+            <summary>Ustawia element klasa zastępcza dla: IApplicationReader.ShowBooks()</summary>
+        </member>
+        <member name="P:MyBookCollection.Fakes.StubIApplicationReader.MyBookCollection#IApplicationReader#Password">
+            <summary>Ustawia element stub dla: IApplicationReader.get_Password()</summary>
+        </member>
+        <member name="F:MyBookCollection.Fakes.StubIApplicationReader.PasswordGet">
+            <summary>Ustawia element stub dla: IApplicationReader.get_Password()</summary>
+        </member>
+        <member name="F:MyBookCollection.Fakes.StubIApplicationReader.ShowBooks">
+            <summary>Ustawia element stub dla: IApplicationReader.ShowBooks()</summary>
+        </member>
+        <member name="T:MyBookCollection.Fakes.StubManager">
+            <summary>Typ klasy zastępczej dla MyBookCollection.Manager</summary>
+        </member>
+        <member name="M:MyBookCollection.Fakes.StubManager.#ctor">
+            <summary>Inicjuje nowe wystąpienie</summary>
+        </member>
+        <member name="P:MyBookCollection.Fakes.StubManager.CallBase">
+            <summary>Pobiera lub ustawia wartość określającą, czy zamiast zachowania alternatywnego należy wywołać metodę bazową</summary>
+        </member>
+        <member name="M:MyBookCollection.Fakes.StubManager.InitializeStub">
+            <summary>Inicjuje nowe wystąpienie elementu type StubManager</summary>
+        </member>
+        <member name="P:MyBookCollection.Fakes.StubManager.InstanceBehavior">
+            <summary>Pobiera lub ustawia zachowanie wystąpienia.</summary>
+        </member>
+        <member name="P:MyBookCollection.Fakes.StubManager.InstanceObserver">
+            <summary>Pobiera lub ustawia obserwatora wystąpienia.</summary>
+        </member>
+        <member name="T:MyBookCollection.Fakes.StubReader">
+            <summary>Typ klasy zastępczej dla MyBookCollection.Reader</summary>
+        </member>
+        <member name="M:MyBookCollection.Fakes.StubReader.#ctor(System.String,System.String)">
+            <summary>Inicjuje nowe wystąpienie</summary>
+        </member>
+        <member name="P:MyBookCollection.Fakes.StubReader.CallBase">
+            <summary>Pobiera lub ustawia wartość określającą, czy zamiast zachowania alternatywnego należy wywołać metodę bazową</summary>
+        </member>
+        <member name="M:MyBookCollection.Fakes.StubReader.InitializeStub">
+            <summary>Inicjuje nowe wystąpienie elementu type StubReader</summary>
+        </member>
+        <member name="P:MyBookCollection.Fakes.StubReader.InstanceBehavior">
+            <summary>Pobiera lub ustawia zachowanie wystąpienia.</summary>
+        </member>
+        <member name="P:MyBookCollection.Fakes.StubReader.InstanceObserver">
+            <summary>Pobiera lub ustawia obserwatora wystąpienia.</summary>
+        </member>
+    </members>
+</doc>

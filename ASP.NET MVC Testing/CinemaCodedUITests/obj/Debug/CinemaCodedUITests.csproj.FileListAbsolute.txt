@@ -1,0 +1,6 @@
+C:\Users\kamil\Desktop\TestowanieNet\Projekt 3\CinemaCodedUITests\bin\Debug\CinemaCodedUITests.dll
+C:\Users\kamil\Desktop\TestowanieNet\Projekt 3\CinemaCodedUITests\bin\Debug\CinemaCodedUITests.pdb
+C:\Users\kamil\Desktop\TestowanieNet\Projekt 3\CinemaCodedUITests\obj\Debug\CinemaCodedUITests.csprojResolveAssemblyReference.cache
+C:\Users\kamil\Desktop\TestowanieNet\Projekt 3\CinemaCodedUITests\obj\Debug\CinemaCodedUITests.csproj.CoreCompileInputs.cache
+C:\Users\kamil\Desktop\TestowanieNet\Projekt 3\CinemaCodedUITests\obj\Debug\CinemaCodedUITests.dll
+C:\Users\kamil\Desktop\TestowanieNet\Projekt 3\CinemaCodedUITests\obj\Debug\CinemaCodedUITests.pdb

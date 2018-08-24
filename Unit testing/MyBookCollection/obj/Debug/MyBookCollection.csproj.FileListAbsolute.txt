@@ -1,0 +1,12 @@
+C:\Users\kamil\Desktop\TestowanieNet\MyBookCollection\MyBookCollection\bin\Debug\MyBookCollection.pdb
+C:\Users\kamil\Desktop\TestowanieNet\MyBookCollection\MyBookCollection\obj\Debug\MyBookCollection.csproj.CoreCompileInputs.cache
+C:\Users\kamil\Desktop\TestowanieNet\MyBookCollection\MyBookCollection\obj\Debug\MyBookCollection.pdb
+C:\Users\kamil\Desktop\TestowanieNet\MyBookCollection\MyBookCollection\bin\Debug\MyBookCollection.exe
+C:\Users\kamil\Desktop\TestowanieNet\MyBookCollection\MyBookCollection\obj\Debug\MyBookCollection.exe
+C:\Users\kamil\Desktop\TestowanieNet\MyBookCollection\MyBookCollection\obj\Debug\MyBookCollection.csprojResolveAssemblyReference.cache
+C:\Users\kamil\Desktop\Moje dokumenty\Studia\6 SEMESTR\TestowanieNet\Projekt 1\MyBookCollection\MyBookCollection\bin\Debug\MyBookCollection.exe
+C:\Users\kamil\Desktop\Moje dokumenty\Studia\6 SEMESTR\TestowanieNet\Projekt 1\MyBookCollection\MyBookCollection\bin\Debug\MyBookCollection.pdb
+C:\Users\kamil\Desktop\Moje dokumenty\Studia\6 SEMESTR\TestowanieNet\Projekt 1\MyBookCollection\MyBookCollection\obj\Debug\MyBookCollection.csprojAssemblyReference.cache
+C:\Users\kamil\Desktop\Moje dokumenty\Studia\6 SEMESTR\TestowanieNet\Projekt 1\MyBookCollection\MyBookCollection\obj\Debug\MyBookCollection.csproj.CoreCompileInputs.cache
+C:\Users\kamil\Desktop\Moje dokumenty\Studia\6 SEMESTR\TestowanieNet\Projekt 1\MyBookCollection\MyBookCollection\obj\Debug\MyBookCollection.exe
+C:\Users\kamil\Desktop\Moje dokumenty\Studia\6 SEMESTR\TestowanieNet\Projekt 1\MyBookCollection\MyBookCollection\obj\Debug\MyBookCollection.pdb

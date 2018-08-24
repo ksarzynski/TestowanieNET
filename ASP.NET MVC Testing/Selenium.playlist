@@ -1,0 +1,1 @@
+<Playlist Version="1.0"><Add Test="CinemaSeleniumTests.CustomerTests.LogInViewTest" /><Add Test="CinemaSeleniumTests.CustomerTests.CustomerCrudOperations" /></Playlist>

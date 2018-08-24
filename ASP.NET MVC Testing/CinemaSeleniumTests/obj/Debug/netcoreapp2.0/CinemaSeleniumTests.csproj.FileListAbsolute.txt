@@ -1,0 +1,14 @@
+C:\Users\kamil\Desktop\TestowanieNet\Projekt 3\CinemaSeleniumTests\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\kamil\Desktop\TestowanieNet\Projekt 3\CinemaSeleniumTests\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\kamil\Desktop\TestowanieNet\Projekt 3\CinemaSeleniumTests\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\kamil\Desktop\TestowanieNet\Projekt 3\CinemaSeleniumTests\bin\Debug\netcoreapp2.0\CinemaSeleniumTests.deps.json
+C:\Users\kamil\Desktop\TestowanieNet\Projekt 3\CinemaSeleniumTests\bin\Debug\netcoreapp2.0\CinemaSeleniumTests.runtimeconfig.json
+C:\Users\kamil\Desktop\TestowanieNet\Projekt 3\CinemaSeleniumTests\bin\Debug\netcoreapp2.0\CinemaSeleniumTests.runtimeconfig.dev.json
+C:\Users\kamil\Desktop\TestowanieNet\Projekt 3\CinemaSeleniumTests\bin\Debug\netcoreapp2.0\CinemaSeleniumTests.dll
+C:\Users\kamil\Desktop\TestowanieNet\Projekt 3\CinemaSeleniumTests\bin\Debug\netcoreapp2.0\CinemaSeleniumTests.pdb
+C:\Users\kamil\Desktop\TestowanieNet\Projekt 3\CinemaSeleniumTests\obj\Debug\netcoreapp2.0\CinemaSeleniumTests.csproj.CoreCompileInputs.cache
+C:\Users\kamil\Desktop\TestowanieNet\Projekt 3\CinemaSeleniumTests\obj\Debug\netcoreapp2.0\CinemaSeleniumTests.AssemblyInfoInputs.cache
+C:\Users\kamil\Desktop\TestowanieNet\Projekt 3\CinemaSeleniumTests\obj\Debug\netcoreapp2.0\CinemaSeleniumTests.AssemblyInfo.cs
+C:\Users\kamil\Desktop\TestowanieNet\Projekt 3\CinemaSeleniumTests\obj\Debug\netcoreapp2.0\CinemaSeleniumTests.dll
+C:\Users\kamil\Desktop\TestowanieNet\Projekt 3\CinemaSeleniumTests\obj\Debug\netcoreapp2.0\CinemaSeleniumTests.pdb
+C:\Users\kamil\Desktop\TestowanieNet\Projekt 3\CinemaSeleniumTests\obj\Debug\netcoreapp2.0\CinemaSeleniumTests.csprojResolveAssemblyReference.cache

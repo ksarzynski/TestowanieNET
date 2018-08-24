@@ -1,0 +1,37 @@
+﻿@model IEnumerable<Cinema.Models.Ticket>
+
+@{
+    ViewData["Title"] = "Tickets";
+}
+
+<h2>Tickets</h2>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Price)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Date)
+                </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Customer)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Film)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+
+   @Html.Partial("partialTicket")
+  
+</table>
+
+    
+
